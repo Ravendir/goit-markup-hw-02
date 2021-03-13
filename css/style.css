@@ -28,6 +28,10 @@ li {
   display: inline-block;
 }
 
+p {
+  color: var(--title-text-color);
+}
+
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -56,7 +60,7 @@ header .logo {
 }
 
 .logo {
-  color: var(--primary-text-color);
+  color: var(--accent-text-color);
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
@@ -67,6 +71,7 @@ header .logo {
 }
 
 .site-nav.list .link {
+  color: var(--primary-text-color);
   left: 453px;
   top: 32px;
   font-weight: 500;
