@@ -90,6 +90,16 @@ header .logo {
   letter-spacing: 0.02em;
 }
 
+.site-nav .link-current {
+  color: var(--accent-text-color);
+  left: 453px;
+  top: 32px;
+  font-weight: 500;
+  position: relative;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-text-color);
@@ -97,7 +107,6 @@ header .logo {
 
 .auth-site.list .link {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
