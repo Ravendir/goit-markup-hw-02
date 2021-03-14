@@ -70,6 +70,16 @@ header .logo {
   height: 31px;
 }
 
+.header-logo {
+  color: var(--primary-text-color);
+  position: absolute;
+}
+
+.footer-logo {
+  color: var(--primary-white-color);
+  position: absolute;
+}
+
 .site-nav.list .link {
   color: var(--primary-text-color);
   left: 453px;
