@@ -35,8 +35,9 @@ p {
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  font-weight: 400;
   width: 1600px;
 }
 
@@ -61,13 +62,13 @@ header .logo {
 
 .logo {
   color: var(--accent-text-color);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  font-weight: bold;
+  font-weight: 700;
   width: 145px;
-  height: 31px;
+  display: inline-block;
 }
 
 .header-logo {
@@ -88,6 +89,7 @@ header .logo {
   position: relative;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: 50px;
 }
 
 .site-nav .link-current {
@@ -98,6 +100,7 @@ header .logo {
   position: relative;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: 50px;
 }
 
 .site-nav .link:hover,
@@ -113,11 +116,20 @@ header .logo {
   position: relative;
   left: 1078px;
   top: 0px;
+  margin-left: 50px;
 }
 
 .auth-site .link:hover,
 .auth-site .link:focus {
   color: var(--accent-text-color);
+}
+
+.main-title {
+  width: 270px;
+  height: 101px;
+  text-align: left;
+  margin-top: 94px;
+  margin-left: 30px;
 }
 
 .hero {
@@ -129,16 +141,15 @@ header .logo {
 
 .hero-title {
   position: absolute;
-  top: 200px;
-  left: 452px;
+  margin: 200px 467px 280px 437px;
   width: 696px;
-  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .section {
@@ -159,6 +170,7 @@ header .logo {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-left: 30px;
 }
 .section-team > h2 {
   font-size: 36px;
@@ -196,16 +208,24 @@ header .logo {
 .button.primary {
   background-color: var(--accent-text-color);
   color: var(--primary-white-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   width: 200px;
   height: 50px;
+  margin: 350px 715px 200px 685px;
+  position: absolute;
+  border: 1px solid #000000;
+  box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  left: 700px;
-  top: 430px;
-  position: absolute;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.section img {
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 .button.secondary {
@@ -218,6 +238,8 @@ header .logo {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: none;
 }
 
 .button.secondary:hover,
@@ -231,7 +253,7 @@ header .logo {
 }
 
 .ul-project h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -255,11 +277,11 @@ header .logo {
   letter-spacing: 0.03em;
 }
 
-.adress.contacts .link {
+.contacts .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.adress.contacts .link:hover,
-.adress.contacts .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-text-color);
 }
